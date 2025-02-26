@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="53fdae8f837041e2b5fca19f75076abc" Name="Diagram1">
+        <EntityTypeShape EntityType="TradeModel.Category" Width="1.5" PointX="0.75" PointY="2.5" />
+        <EntityTypeShape EntityType="TradeModel.Manufacturer" Width="1.5" PointX="0.75" PointY="9.625" />
+        <EntityTypeShape EntityType="TradeModel.MeasurementUnit" Width="1.5" PointX="0.75" PointY="5.375" />
+        <EntityTypeShape EntityType="TradeModel.Order" Width="1.5" PointX="3" PointY="13.875" />
+        <EntityTypeShape EntityType="TradeModel.OrderProduct" Width="1.5" PointX="5.25" PointY="2.25" />
+        <EntityTypeShape EntityType="TradeModel.OrderStatu" Width="1.5" PointX="0.75" PointY="21.5" />
+        <EntityTypeShape EntityType="TradeModel.PickupPoint" Width="1.5" PointX="0.75" PointY="12.125" />
+        <EntityTypeShape EntityType="TradeModel.Product" Width="1.5" PointX="3" PointY="1" />
+        <EntityTypeShape EntityType="TradeModel.Provider" Width="1.5" PointX="0.75" PointY="7.5" />
+        <EntityTypeShape EntityType="TradeModel.Role" Width="1.5" PointX="1.5" PointY="18.75" />
+        <EntityTypeShape EntityType="TradeModel.User" Width="1.5" PointX="0.75" PointY="14.375" />
+        <AssociationConnector Association="TradeModel.FK__Product__Product__3C69FB99" />
+        <AssociationConnector Association="TradeModel.FK__Product__Product__3A81B327" />
+        <AssociationConnector Association="TradeModel.FK__Product__Product__398D8EEE" />
+        <AssociationConnector Association="TradeModel.FK__Order__OrderPick__2D27B809" />
+        <AssociationConnector Association="TradeModel.FK__Order__OrderStat__2F10007B" />
+        <AssociationConnector Association="TradeModel.FK__Order__UserRecei__2E1BDC42" />
+        <AssociationConnector Association="TradeModel.FK__OrderProd__Order__3F466844" />
+        <AssociationConnector Association="TradeModel.FK__OrderProd__Produ__403A8C7D" />
+        <AssociationConnector Association="TradeModel.FK__Product__Product__3B75D760" />
+        <AssociationConnector Association="TradeModel.FK__User__UserRole__267ABA7A" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

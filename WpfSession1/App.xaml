@@ -1,0 +1,54 @@
+﻿<Application x:Class="WpfSession1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfSession1"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="ColorAccent">#76e383</SolidColorBrush>
+        <SolidColorBrush x:Key="ColorAttention">#498c51</SolidColorBrush>
+        <sys:Double x:Key="commonWidth">150</sys:Double>
+        <sys:Double x:Key="commonMinHeigth">29</sys:Double>
+        <Style TargetType="TextBox">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Width" Value="{StaticResource commonWidth}"></Setter>
+            <Setter Property="Margin" Value="5"></Setter>
+            <Setter Property="MinHeight" Value="{StaticResource commonMinHeigth}"></Setter>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="MinHeight" Value="{StaticResource commonMinHeigth}"></Setter>
+            <Setter Property="Width" Value="{StaticResource commonWidth}"></Setter>
+            <Setter Property="Margin" Value="5"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="BlockHeader">
+            <Setter Property="Opacity" Value="0.9"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Background" Value="{StaticResource ColorAccent}"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource ColorAccent}"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Width" Value="{StaticResource commonWidth}"/>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="TB1">
+            <Setter Property="Margin" Value="5,0"/>
+            <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+        </Style>
+        <Style TargetType="Border">
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+    </Application.Resources>
+</Application>
