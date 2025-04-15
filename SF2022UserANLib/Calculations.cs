@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SF2022UserANLib
 {
-    public class Calculations
+    public static class Calculations
     {
         public static string[] AvailablePeriods(
             TimeSpan[] startTimes,
